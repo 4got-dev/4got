@@ -10,4 +10,4 @@ function 4got.update() {
   git status
 }
 # TODO: check compdef
-compdef _git 4got.update=git-checkout
+# compdef _git 4got.update=git-checkout

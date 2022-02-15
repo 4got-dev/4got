@@ -17,4 +17,4 @@ function 4got.checkout() {
   git status
 }
 # TODO: check compdef
-compdef _git 4got.checkout=git-checkout
+# compdef _git 4got.checkout=git-checkout
