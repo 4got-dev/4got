@@ -1,7 +1,10 @@
 # 4got
 
-Utils over git commands that you forgot
-Very useful for reviewers
+> UNDER DEVELOPMENT
+
+Utils over git commands that you forgot.
+
+Useful for code-reviewers.
 
 ## To do
 
