@@ -1,6 +1,6 @@
-# Got
+# 4got
 
-Utils over git commands that you may for4got
+Utils over git commands that you forgot
 Very useful for reviewers
 
 ## To do
@@ -9,11 +9,12 @@ MVP:
 
 - [ ] Rename methods: start actions with a verb, start info with noun
 - [ ] Add imports instead of dependencies
-- [ ] Add tests
+- [ ] Add [tests](https://github.com/reconquest/tests.sh)
+- [ ] Add [imports](https://github.com/reconquest/import.bash)
 
 After the release:
 
-- [ ] Intercept gitlab merge request answer to open it in browser
+- [ ] Intercept GitLab merge request answer to open it in browser
 
 ## Thanks
 
