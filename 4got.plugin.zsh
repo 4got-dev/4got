@@ -3,11 +3,12 @@
 # @name 4got
 # @brief If you forget rarely used git commands, just use the `4got<TAB>` autocomplete
 
-4GOT_FUNCTIONS=( "backmerge", "basename", "branch.name", "branch.rename", "branch.prune", "branch.stash", "branches.merged.delete", "branches.old", "checkout", "duplicate", "name", "outside", "path", "release", "update" )
-4GOT_COMPLETIONS=()
+FOURGOT_FUNCTIONS=("backmerge" "basename" "branch.name" "branch.rename" "branch.prune" "branch.stash" "branches.merged.delete" "branches.old" "checkout" "duplicate" "name" "outside" "path" "release" "update")
+FOURGOT_COMPLETIONS=()
 
-# TODO: use imports: https://github.com/reconquest/import.bash
-for file ($^4GOT_FUNCTIONS(.N)) source $file
+for file in "${FOURGOT_FUNCTIONS[@]}"
+  do source "./bin/${file}.zsh"
+done
 
 # TODO: probably move into readme
 alias gp='4got.path'
