@@ -28,8 +28,8 @@ I want to do in MVP version:
     - [ ] GitHub releases
     - [ ] GitLab releases
     - [ ] to npm
-- [ ] Cover with tests. For example, with [tests.sh]](https://github.com/reconquest/tests.sh)
-- [ ] Cover with documentation. For example, with [reconquest/shdoc](https://github.com/reconquest/shdoc)
+- [ ] Cover with tests. For example, with [tests.sh](https://github.com/reconquest/tests.sh)
+- [ ] Cover with documentation. For example, with [shdoc](https://github.com/reconquest/shdoc)
 
 After the release:
 
