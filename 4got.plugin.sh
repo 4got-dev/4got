@@ -7,7 +7,7 @@ FOURGOT_FUNCTIONS=("backmerge" "basename" "branch.name" "branch.rename" "branch.
 FOURGOT_COMPLETIONS=()
 
 for file in "${FOURGOT_FUNCTIONS[@]}"
-  do source "./bin/${file}.zsh"
+  do source "./bin/${file}.sh"
 done
 
 # TODO: probably move into readme
