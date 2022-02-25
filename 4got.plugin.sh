@@ -6,8 +6,8 @@
 FOURGOT_FUNCTIONS=("backmerge" "basename" "branch.name" "branch.rename" "branch.prune" "branch.stash" "branches.merged.delete" "branches.old" "checkout" "duplicate" "name" "outside" "path" "release" "update")
 FOURGOT_COMPLETIONS=()
 
-for file in "${FOURGOT_FUNCTIONS[@]}"
-  do source "./bin/${file}.sh"
+for function in "${FOURGOT_FUNCTIONS[@]}"
+  do source "./bin/${function}/${function}.sh"
 done
 
 # TODO: probably move into readme
