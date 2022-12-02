@@ -1,5 +1,6 @@
+#!/usr/bin/env bash
 
-# @arg $1 string 
+# @arg $1 string
 # TODO: add error codes
 function 4got.duplicate() {
   4got.cd.outside

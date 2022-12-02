@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # TODO: add docs
 function 4got.release() {
   # TODO: split into lines

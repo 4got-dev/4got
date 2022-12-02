@@ -1,14 +1,15 @@
+#!/usr/bin/env bash
 
 # 4got.branch.rename
-# 
-# @description Helper 
-# 
+#
+# @description Helper
+#
 # @arg $1 string Branch name to change
 # @arg $2 string New name for branch
-# 
+#
 # @example
 #     4got.branch.rename master main
-# 
+#
 # @exitcode 0 If successful
 # @exitcode 1 If an empty string passed to $1 or $2
 function 4got.branch.rename() {

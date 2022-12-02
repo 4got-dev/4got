@@ -1,1 +1,0 @@
-# TODO: add utility to check that dependencies are enabled

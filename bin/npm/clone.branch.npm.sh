@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # gclb - git clone branch for review
 # @arg $1 string Branch for review
 # TODO: handle errors

@@ -36,6 +36,10 @@ After the release:
 - [ ] Intercept GitLab merge request answer to open it in browser
 - [ ] Separate to multi-repo and use [imports](https://github.com/reconquest/import.bash) to download only needed utilities at first once.
 
+## Inspiration references
+
+* [git-friendly](https://github.com/git-friendly/git-friendly)
+
 ## Contributing
 
 I strive to improve this tool like [fzf](https://github.com/junegunn/fzf) and [forgit](https://github.com/wfxr/forgit):

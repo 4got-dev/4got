@@ -1,6 +1,9 @@
+#!/usr/bin/env bash
+
 # Push with creating a merge request in gitlab
 # @arg $1 string taget branch
 # @see https://docs.gitlab.com/ee/user/project/push_options.html#merge-when-pipeline-succeeds-alias
+FOURGOT_DEPS+=("4got.branch.name")
 function 4got.push.mr() {
   # TODO: check has args
   # TODO: check args if empty
@@ -16,7 +19,7 @@ function 4got.push.mr() {
   # if (( $# == 0 )); then
   #   # When no arguments are provided, just push
   # else
-    
+
   # fi
 
   # git push --set-upstream origin $(4got.branch.name) \

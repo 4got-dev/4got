@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 # TODO: add docs
 # TODO: add error codes

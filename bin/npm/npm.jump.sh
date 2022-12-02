@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 function 4got.npm.jump() {
   4got.checkout "$1"
   npm ci

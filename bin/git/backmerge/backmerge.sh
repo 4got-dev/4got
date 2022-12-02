@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 # TODO: wtf here?
 # TODO: add docs with error codes
@@ -28,7 +29,7 @@ function backmerge_all() {
     echo "!!! Backmerging $branch ..."
     4got.update master
     co $branch && git merge origin/master -m 'Backmerged master' && push
-  done 
+  done
   co curr_branch
 }
 # TODO: add compdef

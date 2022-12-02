@@ -1,6 +1,7 @@
+#!/usr/bin/env bash
 
 # 4got.branches.old
-# 
+#
 # @description Show branches sorted by committer date. By default last 5 branches, but you can pass number argument to change this value
 #
 # @arg $1 number How much old branches to show

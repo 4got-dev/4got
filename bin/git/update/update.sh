@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 # 4got.update - fetch, checkout, pull, fetch, status
 # TODO: check that update it is the same as checkout?
